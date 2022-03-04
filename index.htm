@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temprature Converter</title>
+</head>
+
+<body>
+    <center>
+        <h1>Temp Converter</h1>
+    </center>
+    <div class="contain">
+        <div class="input">
+            <label for="temp">From:</label>
+            <select name="temp" id="tempListFrom">
+                <option value="c">Celcius(°C)</option>
+                <option value="f">Fahrenheit(°F)</option>
+                <option value="k">Kelvinv(°K)</option>
+            </select>
+            <label for="temp">To:</label>
+            <select name="temp" id="tempListTo">
+                <option value="c">Celcius(°C)</option>
+                <option value="f">Fahrenheit(°F)</option>
+                <option value="k">Kelvinv(°K)</option>
+            </select>
+            <input type="text" placeholder="Enter Temp" id="enter">
+        </div>
+        <hr>
+        <div class="output">
+            <p class="ans">Result</p>
+            <span class="result" id="result">
+                0
+            </span>
+            <span id="showSymbol"></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

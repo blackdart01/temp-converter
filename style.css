@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ec931e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: lato;
+}
+h1 {
+  margin: -200px 0 100px 0;
+}
+.contain {
+  width: 500px;
+  font-family: lato;
+}
+.input {
+  font-size: 1.2em;
+}
+#tempListFrom,
+#tempListTo {
+  font-size: 0.8em;
+  background-color: #ec931e;
+  color: black;
+  border-color: white;
+  border-width: 2px;
+  margin: 0 5px 20px 5px;
+  border-radius: 4px;
+  outline: none;
+  padding: 3px 4px;
+}
+#enter {
+  background-color: #ec931e;
+  outline: none;
+  border: 2px solid white;
+  width: 50%;
+  margin: 0 0 50px 25%;
+  padding: 3px 4px;
+  border-radius: 4px;
+}
+#enter::placeholder {
+  color: rgba(255, 255, 255, 0.568);
+}
+label {
+  margin: 0 15px 0 15px;
+}
+.output {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.ans {
+  margin-bottom: 20px;
+}
+hr {
+  margin-bottom: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.result {
+  border: 1px solid white;
+  padding: 10px 25px;
+  border-radius: 4px;
+}
