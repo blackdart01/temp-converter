@@ -1,5 +1,4 @@
-<h1><u> Temperature Converter</u></h1>
-
+# Temperature Converter
 ## About
     This Web App features some basic temperature conversions.
     From - Celcius, Fahrenheit, Kelvin
@@ -11,9 +10,8 @@
 ## Releases
     * Pre Release features the basic conversion without much UI
     * New Release features a better UI for desktop and tablet mode
-## Major Updates
-    1.0 Pre Release
-    1.2 UI Release
+## Pre Release / Major Updates
+    1.0 UI Release
     1.3 Support For Tablet mode
     1.5 making it not accept alphaNumeric
     1.6 Report Bug Feature
@@ -24,3 +22,5 @@
     Srijan Agrawal, enthusiast web developer learning some
     real stuff. Currently persuing B.Tech from SSIPMT in
     CSE branch, in preplacement year.
+
+<a href="https://www.github.com/blackdart01/temp-converter" />Visit GitHub Profile
