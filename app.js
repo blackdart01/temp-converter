@@ -11,10 +11,10 @@ function convert() {
         indexFrom = from.selectedIndex;
     });
 
-
     to.addEventListener('change', () => {
         indexTo = to.selectedIndex;
     });
+
     if (!Number.isInteger(Number(getTextboxValue.value)) && (getTextboxValue.value).length > 0) {
         alert("Enter Numeric Value");
         getTextboxValue.value = "";
@@ -49,7 +49,6 @@ function convert() {
     }
     if ((getTextboxValue.value).length == 0)
         getResultSpan.innerHTML = "";
-
 }
 
 setInterval(convert, 100);
