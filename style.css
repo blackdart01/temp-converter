@@ -66,3 +66,34 @@ hr {
   padding: 10px 25px;
   border-radius: 4px;
 }
+
+.report {
+  position: absolute;
+  bottom: -130%;
+  left: 10%;
+  width: 100%;
+  transform: translateY(-30%);
+  /* display: flex;
+  flex-direction: column;
+  justify-content: end; */
+  /* margin: 0% 0 0 0; */
+}
+#report {
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  transform: translate(-90%, -20%);
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  background-color: red;
+  /* border: 1px solid red; */
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+#report:hover {
+  background-color: transparent;
+  color: red;
+  border: 1px solid white;
+  transition: 100ms ease-in-out;
+}

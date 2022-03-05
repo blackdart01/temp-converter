@@ -15,17 +15,14 @@ function convert() {
     to.addEventListener('change', () => {
         indexTo = to.selectedIndex;
     });
-    // console.log(from.selectedIndex);
-    // console.log(to.selectedIndex);
-    // if (from)
-    // console.log(indexFrom);
-    // console.log(indexTo);
-    // if (getTextboxValue.value.length < 1)
-    //     getTextboxValue.value = 0;
-    if (from.selectedIndex == 0 && to.selectedIndex == 0) {
-        // console.log("c to c");
-        getResultSpan.innerHTML = (getTextboxValue.value);
+    if (!Number.isInteger(Number(getTextboxValue.value)) && (getTextboxValue.value).length > 0) {
+        alert("Enter Numeric Value");
+        getTextboxValue.value = "";
     }
+    else if (Number.isInteger(parseInt(getTextboxValue.value)) && (getTextboxValue.value).length > 0)
+        if (from.selectedIndex == 0 && to.selectedIndex == 0) {
+            getResultSpan.innerHTML = (getTextboxValue.value);
+        }
     if (from.selectedIndex == 0 && to.selectedIndex == 1 && (getTextboxValue.value).length > 0) {
         getResultSpan.innerHTML = (parseInt(getTextboxValue.value) * 9 / 5) + 32;
     }
@@ -50,6 +47,8 @@ function convert() {
     if (from.selectedIndex == 2 && to.selectedIndex == 2 && (getTextboxValue.value).length > 0) {
         getResultSpan.innerHTML = parseInt(getTextboxValue.value);
     }
+    if ((getTextboxValue.value).length == 0)
+        getResultSpan.innerHTML = "";
 
 }
 
